@@ -1,0 +1,59 @@
+#greetings{
+   
+    padding: 0;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    float: left;
+    margin-left: 215px;
+    letter-spacing: 3px;
+
+}
+#greetings h3{
+    color: rgba(7, 19, 24, 0.76)
+}
+.nav-item{
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+#regstaff{
+    width: 220px;
+    height: 80px;
+    margin-top: 220px;
+    background: #222222;
+    font-weight:500;
+    letter-spacing: 2px;
+ margin-left: 50px;
+    border: none;
+    transition: 0.9s;
+    border-radius: 50px 0 50px 0;
+
+}#regstaff:hover{
+    border-radius: 0 50px 0 50px;
+    transition: 0.6;
+}
+#regstaff a{
+    text-decoration: none;
+    color: white;
+    
+}
+.bg-menu{
+    width: 175vh;
+    height: 60vh;
+    margin-top: 20vh;
+    background-image: url('../img/webp/anime1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: contrast(100px);
+
+}
+#text-menu{
+    color: #cecece;
+    text-shadow: rgb(34, 34, 34) 1px 0 30px;
+    align-items: center;
+    text-align: center;
+    background-color: #222222;
+    
+}
